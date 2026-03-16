@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 import Post from "../Post/Post";
 import { getPosts } from "../getPost";
-import Loading from "../Loading/loading";
-
+import Loading from "../Loading/Loading";
 
 export default function Feed() {
   const [posts, setPosts] = useState([]);
